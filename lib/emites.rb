@@ -1,4 +1,5 @@
-require "emites/version"
+# require 'emites/version'
+require 'httparty'
 
 module Emites
 
