@@ -1,6 +1,6 @@
 # Emites::Rails
 
-TODO: Write a gem description
+API integration with EMITES (www.emites.com.br) 
 
 ## Installation
 

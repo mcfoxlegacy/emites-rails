@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Emites::Rails::VERSION
   spec.authors       = ["José Lopes Neto"]
   spec.email         = ["jose.neto@taxweb.com.br"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Emites API wrapper gem}
+  spec.description   = %q{Encapsulates emites api in a rails gem www.emites.com.br}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_dependency "httparty","~> 0.13.1"
 end
