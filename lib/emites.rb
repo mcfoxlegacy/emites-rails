@@ -9,9 +9,9 @@ module Emites
 
   def self.setup(token,production=false)
     if production
-      @endpoint = 'https://sandbox.emites.com.br'
-    else
       @endpoint = 'https://app.emites.com.br'
+    else
+      @endpoint = 'https://sandbox.emites.com.br'
     end
     base_uri @endpoint
     @token = token
